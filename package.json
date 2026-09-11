@@ -1,8 +1,16 @@
 {
   "name": "generic-editorial-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marshymcfloat/template-1.git"
+  },
+  "engines": {
+    "node": ">=24.15.0 <25",
+    "npm": ">=11.6.0"
+  },
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
@@ -12,7 +20,13 @@
     "@vitejs/plugin-vue": "latest",
     "gsap": "^3.15.0",
     "lenis": "^1.3.26",
-    "vite": "latest",
-    "vue": "latest"
+    "vue": "^3.5.0",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "tailwindcss": "^4.1.0",
+    "vite": "^6.3.0"
   }
 }

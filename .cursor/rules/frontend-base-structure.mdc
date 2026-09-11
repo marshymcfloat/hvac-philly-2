@@ -1,0 +1,14 @@
+---
+description: Shared frontend-base contract for this template
+alwaysApply: true
+---
+
+# Template contract
+
+- Preserve the template-specific UI in `src/App.vue` and `src/style.css`.
+- Use Vue 3, Vite 6, Node 24, and the existing router scaffold.
+- Put route views in `src/pages/`, shells in `src/layouts/`, reusable UI in `src/components/`, and pure helpers in `src/utils/`.
+- Browser configuration must use documented `VITE_*` variables. Never commit `.env`.
+- `/admin` and `/login` belong to the central operator console; do not build a local admin UI.
+- Production output is `dist/` and deployment uses the Bunny GitHub Actions workflow.
+- Tailwind is available for future components but is intentionally not imported into the current stylesheet, preserving this template's existing UI and reset behavior.

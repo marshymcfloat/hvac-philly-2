@@ -1,0 +1,8 @@
+---
+description: Keep transient debugging details out of durable project documentation
+alwaysApply: true
+---
+
+# Questions and bugs
+
+Document only stable setup, architecture, environment variables, and non-obvious invariants. Do not add one-off debugging notes or workaround logs to README files, environment examples, or code comments.

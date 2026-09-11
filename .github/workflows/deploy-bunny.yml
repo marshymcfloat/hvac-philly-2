@@ -1,0 +1,50 @@
+name: deploy-bunny
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vite.config.js'
+      - 'index.html'
+      - '.nvmrc'
+      - '.github/workflows/deploy-bunny.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-bunny
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - name: Install and build
+        env:
+          VITE_API_URL: ${{ secrets.VITE_API_URL }}
+          VITE_WEBSITE_HANDLE: ${{ secrets.VITE_WEBSITE_HANDLE }}
+          VITE_PUBLIC_API_KEY: ${{ secrets.VITE_PUBLIC_API_KEY }}
+        run: |
+          if [ -z "${VITE_API_URL}" ]; then
+            echo "::error::Set GitHub Actions secret VITE_API_URL"
+            exit 1
+          fi
+          npm ci
+          npm run build
+      - name: Publish dist to Bunny
+        uses: Anhelmz/deploy-bunny/publish@v1
+        with:
+          dist-path: dist
+        env:
+          BUNNY_ACCESS_KEY: ${{ secrets.BUNNY_ACCESS_KEY }}
+          BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
+          BUNNY_PULL_ZONE: ${{ secrets.BUNNY_PULL_ZONE }}
