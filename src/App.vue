@@ -4,11 +4,15 @@ import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import MobileNavSheet from './components/MobileNavSheet.vue'
+import { setLenisInstance } from './composables/useLockScroll'
 
 let lenis
 let animationFrame
 let animationContext
 const reviewPanelOpen = ref(false)
+const mobileNavOpen = ref(false)
+const mobileNavTrigger = ref(null)
 const reviewPanel = ref(null)
 const reviewBadge = ref(null)
 const reviews = [
@@ -32,9 +36,16 @@ const closeReviews = () => {
   } })
 }
 
+const closeMobileNav = async () => {
+  mobileNavOpen.value = false
+  await nextTick()
+  mobileNavTrigger.value?.focus()
+}
+
 onMounted(() => {
   gsap.registerPlugin(ScrollTrigger)
   lenis = new Lenis({ duration: 1.15, smoothWheel: true, wheelMultiplier: 0.9, touchMultiplier: 1.1 })
+  setLenisInstance(lenis)
   lenis.on('scroll', ScrollTrigger.update)
   const raf = (time) => {
     lenis.raf(time)
@@ -56,6 +67,7 @@ onMounted(() => {
 onBeforeUnmount(() => {
   cancelAnimationFrame(animationFrame)
   lenis?.destroy()
+  setLenisInstance(null)
   animationContext?.revert()
   ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
 })
@@ -83,7 +95,12 @@ const pad = (value) => String(value).padStart(2, '0')
       <a class="wordmark" href="#">LOREM</a>
       <nav aria-label="Primary navigation"><a href="#about">Ipsum</a><a href="#services">Dolor</a><a href="#journal">Amet</a></nav>
       <a class="nav-cta" href="#footer">Lorem ipsum <span>&nearr;</span></a>
+      <button ref="mobileNavTrigger" class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-navigation" :aria-expanded="mobileNavOpen" @click="mobileNavOpen = true">
+        <span></span><span></span>
+      </button>
     </header>
+
+    <MobileNavSheet :open="mobileNavOpen" @close="closeMobileNav" />
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
