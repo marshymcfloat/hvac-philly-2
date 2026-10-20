@@ -10,6 +10,9 @@ import { setLenisInstance } from './composables/useLockScroll'
 let lenis
 let animationFrame
 let animationContext
+let navbarMedia
+const navbar = ref(null)
+const navbarLogo = ref(null)
 const reviewPanelOpen = ref(false)
 const mobileNavOpen = ref(false)
 const mobileNavTrigger = ref(null)
@@ -53,6 +56,32 @@ onMounted(() => {
   }
   animationFrame = requestAnimationFrame(raf)
 
+  navbarMedia = gsap.matchMedia()
+  navbarMedia.add({
+    mobile: '(max-width: 650px)',
+    desktop: '(min-width: 651px)',
+    reduceMotion: '(prefers-reduced-motion: reduce)'
+  }, ({ conditions }) => {
+    const { mobile, reduceMotion } = conditions
+    if (reduceMotion) {
+      const updateNavbar = () => {
+        const scrolled = window.scrollY > 24
+        gsap.set(navbar.value, { y: scrolled ? 0 : mobile ? 20 : 32, '--nav-surface': scrolled ? 1 : 0 })
+        gsap.set(navbarLogo.value, { scale: scrolled ? 1 : mobile ? 1.6 : 2.2 })
+      }
+      ScrollTrigger.create({ start: 0, end: 'max', onUpdate: updateNavbar, onRefresh: updateNavbar })
+      updateNavbar()
+      return
+    }
+
+    gsap.timeline({
+      defaults: { duration: 1, ease: 'none' },
+      scrollTrigger: { start: 0, end: mobile ? 96 : 144, scrub: .45 }
+    })
+      .to(navbar.value, { y: 0, '--nav-surface': 1 }, 0)
+      .to(navbarLogo.value, { scale: 1 }, 0)
+  }, navbar.value)
+
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches
   animationContext = gsap.context(() => {
     if (reduceMotion) return
@@ -68,6 +97,7 @@ onBeforeUnmount(() => {
   cancelAnimationFrame(animationFrame)
   lenis?.destroy()
   setLenisInstance(null)
+  navbarMedia?.revert()
   animationContext?.revert()
   ScrollTrigger.getAll().forEach((trigger) => trigger.kill())
 })
@@ -91,8 +121,8 @@ const pad = (value) => String(value).padStart(2, '0')
 
 <template>
   <div class="page">
-    <header class="nav">
-      <a class="wordmark" href="#">LOREM</a>
+    <header ref="navbar" class="nav">
+      <a ref="navbarLogo" class="wordmark" href="#">LOREM</a>
       <nav aria-label="Primary navigation"><a href="#about">Ipsum</a><a href="#services">Dolor</a><a href="#journal">Amet</a></nav>
       <a class="nav-cta" href="#footer">Lorem ipsum <span>&nearr;</span></a>
       <button ref="mobileNavTrigger" class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-navigation" :aria-expanded="mobileNavOpen" @click="mobileNavOpen = true">
@@ -114,10 +144,27 @@ const pad = (value) => String(value).padStart(2, '0')
         </div>
       </section>
 
-      <section class="credentials" aria-labelledby="credentials-title">
-        <div class="credentials-inner">
-          <div><p id="credentials-title" class="eyebrow blue">Trusted &amp; verified</p></div>
-          <div class="credential-marquee"><div class="credential-track"><ul v-for="set in 2" :key="set" :aria-hidden="set === 2"><li v-for="n in 10" :key="n"><span class="mini-placeholder"></span><b>Logo</b></li></ul></div></div>
+      <section class="trust-band" aria-labelledby="trust-title">
+        <div class="shell trust-inner">
+          <h2 id="trust-title">Confidence in every detail</h2>
+          <ul class="trust-items">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4 4 7 8 9 4-2 8-5 8-9V6Z" /><path d="m8 12 3 3 5-6" /></svg>
+              <span>Licensed &amp; insured</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3" /><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6m3 10v-3a6 6 0 0 0-2-4" /></svg>
+              <span>Qualified team</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="6" /><path d="m9 9 2 2 4-4M8 14l-1 7 5-3 5 3-1-7" /></svg>
+              <span>Quality workmanship</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11a8 8 0 0 1-8 8H7l-4 3V11a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8Z" /><path d="M7 8h10M7 12h7" /></svg>
+              <span>Clear communication</span>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -141,7 +188,6 @@ const pad = (value) => String(value).padStart(2, '0')
             <ol class="capability-list"><li v-for="(item, i) in capabilities" :key="item.title"><span class="number">{{ pad(i + 1) }}</span><span class="icon-placeholder" role="img" aria-label="Icon placeholder"><i aria-hidden="true"></i><small>Icon</small></span><h3>{{ item.title }}</h3><p>{{ item.copy }}</p></li></ol>
           </div>
 
-          <div class="clients"><div><h3>Trusted by leading teams</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae justo.</p></div><div class="client-marquee"><div class="client-track"><div v-for="set in 2" :key="set" class="client-set" :aria-hidden="set === 2"><span v-for="n in 6" :key="n"><i class="logo-placeholder" aria-hidden="true"></i><b>Logo</b></span></div></div></div></div>
         </div>
       </section>
 
