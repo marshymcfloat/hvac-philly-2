@@ -1,0 +1,13 @@
+Generation method: built-in image_gen tool.
+Final asset: public/images/philly-hvac-hero.webp
+Generated artwork; the technician is not a photographed company employee.
+
+Use case: photorealistic-natural.
+Asset type: production website hero photograph, wide landscape 16:9, preferably 2048x1152.
+Primary request: Create a premium, authentic editorial photograph for Superior Comfort Heating & Cooling LLC / Philly HVAC Pros, communicating skilled local HVAC service, care for Philadelphia homes, reliable year-round comfort.
+Scene: a believable tidy rear brick courtyard of a historic Philadelphia red-brick rowhouse, subtle neighboring rowhome architecture, one warmly lit home window in the background, cool early-evening blue hour. No iconic tourist landmarks.
+Subject: one skilled adult HVAC service technician on the RIGHT side of the composition, wearing a clean navy work shirt, charcoal work trousers and suitable work footwear with subtle copper-colored clothing details. Candid, focused, natural posture, crouching beside a realistic residential outdoor heat-pump condenser, conducting an external diagnostic check using a small handheld digital service instrument. Unit cabinet and grille intact, no exposed dangerous wiring, no electrical sparks, no visible refrigerant venting. A compact organized tool bag nearby. Anatomically natural hands and equipment details.
+Composition: horizontal architectural commercial photography, eye-level three-quarter view. Technician and recognizable condenser clearly occupy the rightmost 45 percent. Keep the LEFT 50 percent visually quiet, darker and softly out of focus with textured deep navy shadows over distant brick, for white website headline and body copy that will be overlaid in code. Keep the top-left especially simple for the real logo. The subject should sit around x=73%, y=48% and remain recognizable in a mobile portrait crop centered around the right side. Show enough of the home to convey neighborhood service, not a warehouse or generic industrial facility.
+Lighting: cinematic but believable cool navy ambient light, gentle warm copper/amber window light, natural skin tones, legible technician and equipment, strong photographic realism, refined restrained color grading. Reassuring, capable and grounded.
+Color palette: deep navy #112e4d and #06192d, warm red brick, subtle copper #c99078 highlights, neutral gray equipment.
+Constraints: Generate a photograph only. No text, no typography, no logos, no badges, no watermark, no UI, no promotional lettering. Avoid glossy stock-photo posing, handshakes, thumbs-up, dramatic smoke, snow/fire split-screen symbolism, neon blue lighting, fake company vehicles, invented equipment branding, excessive tools or clutter.

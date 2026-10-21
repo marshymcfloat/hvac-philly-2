@@ -1,0 +1,12 @@
+Generation method: built-in image_gen tool.
+Final asset: public/images/philly-hvac-residential-service.webp
+Generated artwork; the technician and property are illustrative, not documented staff or completed projects.
+
+Use case: photorealistic-natural.
+Asset type: supporting residential service photograph for the website of Superior Comfort Heating & Cooling LLC / Philly HVAC Pros, landscape 3:2, preferably 1536x1024.
+Primary request: communicate hands-on heating expertise and careful workmanship in an older Philadelphia home.
+Scene: a clean, realistic utility room in a red-brick Philadelphia rowhouse, warm aged brick, tidy copper hydronic piping, a believable compact modern hot-water boiler with an intact cabinet and neat gauges and insulated pipes, no readable logos or lettering. Equipment looks naturally installed and physically plausible rather than futuristic or a maze of random plumbing.
+Subject: one adult HVAC technician in navy workwear, kneeling or leaning beside the boiler, looking at the controls and checking a pipe connection externally with a small handheld diagnostic instrument. Candid competent posture, anatomically natural hands, no exposed energized wiring, no sparks or flame. Emphasize the boiler and copper installation as much as the person.
+Composition: premium editorial trade photography, medium-wide three-quarter view; main technician and equipment positioned centrally so they remain visible when the image is cropped to a panoramic website panel. Keep faces and meaningful details in the middle 60 percent horizontally and middle 60 percent vertically. Mild depth of field, careful material detail, no advertising overlays.
+Lighting and palette: soft daylight entering a small basement window, warm copper and brick against deep navy workwear and charcoal equipment, realistic neutral highlights. Coordinated with a premium navy-and-copper local HVAC brand.
+Constraints: photo only, no typography, no text, no logos, no watermark, no UI. Not a team portrait, not a staged thumbs-up, no clutter, no hazardous work, no exaggerated industrial machinery.

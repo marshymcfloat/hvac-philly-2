@@ -1,0 +1,12 @@
+Generation method: built-in image_gen tool.
+Final asset: public/images/philly-hvac-about.webp
+Generated artwork; people are illustrative and are not photographed employees or customers.
+
+Use case: photorealistic-natural.
+Asset type: About Us section photograph for Superior Comfort Heating & Cooling LLC / Philly HVAC Pros. Landscape 4:3 composition, preferably 1536x1152.
+Primary request: Convey personal service, knowledgeable local HVAC care, and clear communication through an authentic in-home consultation.
+Scene: a modest, beautifully maintained Philadelphia rowhouse interior, subtle exposed red brick, painted trim, a real cast-iron radiator beneath a daylight window, warm off-white walls. One plain wall-mounted residential thermostat clearly visible at a believable height, simple screen with no readable lettering.
+Subjects: exactly two adults. One HVAC technician in a clean navy work shirt and charcoal trousers, standing left of center, gently explaining the thermostat setting with a natural open-hand gesture. One adult homeowner in everyday neutral clothing standing near the center-right, listening attentively. Candid natural rapport and relaxed expressions, no handshake, no thumbs-up, no direct camera posing. Both faces and gestures clearly visible, realistic anatomy and hands, professional but approachable.
+Composition: premium editorial photography, medium-wide waist-up environmental view, eye-level 35mm perspective. Place both people and thermostat within the central 65% of the image, with key details away from the far right because a website copy panel overlaps that edge. Keep the lower-left 25% relatively quiet for an overlaid 24/7 service badge. Preserve enough room around heads for responsive cropping. People should be the focus, the radiator and brick architecture give subtle local heating-service context.
+Lighting and palette: soft natural daylight, realistic skin tones, deep navy workwear, gentle warm copper/brick notes, calm cream neutrals. Refined color grading complementary to an existing navy-and-copper HVAC hero image; brighter and more welcoming than a nighttime hero. Real lived-in home texture, natural photographic detail.
+Constraints: photograph only. No logos, no text, no typography, no watermarks, no UI overlays. No invented uniforms or readable brand marks. No fake customer endorsement, no staged team portrait, no glossy stock-photography posing, no excessive tools, no exposed dangerous wiring, no industrial plant.

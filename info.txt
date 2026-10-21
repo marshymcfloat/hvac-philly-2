@@ -1,0 +1,381 @@
+PHILLY HVAC PROS - WEBSITE INFORMATION
+Source: https://phillyhvacpros.com/
+Scraped: 2026-10-21 (Asia/Manila)
+
+SCOPE AND METHOD
+42 public HTML pages fetched successfully: 19 content pages and 23 archive pages.
+Discovery used both published sitemap systems and recursively followed internal links,
+including the second author archive page. Query-string variants, feeds, embedded
+resources, administration endpoints, and binary downloads were excluded. No forms
+were submitted. This file contains extracted facts and original page summaries;
+repeated navigation, sharing widgets, comments, and duplicate archive excerpts are
+omitted. Claims below describe the website and have not been independently verified.
+Image URLs are inventoried; image files were not downloaded.
+
+BUSINESS AND CONTACT INFORMATION
+Business names appearing on the site:
+- Superior Comfort Heating & Cooling LLC.
+- Superior Comfort Heating & Cooling.
+- Philly HVAC Pros.
+Website: https://phillyhvacpros.com/
+Phone: 215-416-6557
+Telephone link: tel:2154166557
+Email: 1superiorcomfortllc@gmail.com
+Email link: mailto:1superiorcomfortllc@gmail.com
+Address displayed: 545 N 58th Street, Philadelphia, PA 19131, USA.
+Primary customers: homeowners, landlords, property managers, apartment buildings,
+residential properties, businesses, and commercial properties.
+Emergency availability advertised: 24/7, with same-day appointments prioritized for
+loss of heating, loss of cooling, and other urgent situations.
+The Main Line page states service in that area began in 2018.
+Sources: homepage; Main Line service page; June 2025 Main Line article.
+
+SERVICES
+Heating:
+- Gas, oil, and electric furnace diagnosis, repair, replacement, and installation.
+- Heating failures, furnace upgrades, and preventive maintenance.
+- Steam and hot-water boiler repair, installation, replacement, and conversions.
+- Boiler leaks, pressure problems, cast-iron boilers, and hydronic heating.
+- Condensing boilers, radiator/baseboard compatibility, and hydronic zoning.
+- High-efficiency gas furnace installation, including equipment rated 90%+ AFUE.
+Cooling:
+- Central air conditioning and split-system installation, repair, and maintenance.
+- Air handlers, evaporator coils, outdoor condensers, and high-velocity AC systems.
+- Refrigerant leaks, compressor issues, frozen coils, electrical faults, sensors,
+  fan motors, capacitors, thermostat problems, and restricted airflow.
+- Seasonal tune-ups, filter changes, refrigerant checks, and duct inspections.
+Heat pumps and ductless systems:
+- Air-source, ducted, ductless, cold-climate, and multi-zone heat pump systems.
+- New installations, replacement, retrofits, repair, and routine maintenance.
+- Load calculations, equipment removal, controls, and electrical upgrades if needed.
+- Solutions for older homes, rowhouses, additions, and finished basements.
+Water heaters and related plumbing:
+- Gas and electric water heater repair, service, and replacement.
+- No hot water, insufficient hot water, leaks, and noisy tanks.
+- Heating elements, thermostats, pilot lights, relief valves, and tank sediment.
+- Condensate drains, condensate pumps, heating-system water heater connections,
+  and boiler piping.
+Commercial and property management:
+- Rooftop HVAC equipment installation, service, and filter replacement.
+- Commercial emergency repairs and preventive maintenance.
+- Apartment/rental maintenance plans and agreements covering multiple properties.
+Indoor air quality and controls:
+- Air purifiers, UV germicidal lights, humidity controls, and duct cleaning.
+- Programmable/smart thermostats, HVAC controls, and efficiency improvements.
+Sources: individual service pages and 2024/2025 articles listed below.
+
+SERVICE AREA
+Counties named: Philadelphia, Delaware, Montgomery, Bucks, and Chester.
+Philadelphia neighborhoods named across the site:
+- Center City, Northeast Philadelphia, Northwest Philadelphia, South Philadelphia.
+- Rittenhouse Square, Society Hill, Fitler Square, Chestnut Hill, East Falls.
+- Manayunk, Roxborough, Fairmount, Queen Village, Old City, and Mount Airy.
+Main Line and surrounding communities named:
+- Ardmore, Bryn Mawr, Wayne, Haverford, Villanova, Berwyn, Narberth, Merion.
+- Wynnewood, Rosemont, Penn Valley, Gladwyne, Bala Cynwyd, Devon, Malvern.
+Other service communities named:
+- Media, Springfield, Upper Darby, Havertown, Ridley Park, Lansdowne.
+- Swarthmore, Yeadon, Darby, Jenkintown, and Ambler.
+The water-heater page title also names Bryn Mawr.
+Locations are consolidated from the source pages; the site does not publish a
+precise service radius. County assignments for individual towns are not inferred.
+Sources: homepage; Main Line, split-system, efficiency, and water-heater pages;
+October and December 2025 articles.
+
+BRANDS AND CUSTOMER POLICIES
+Brands explicitly named: Carrier, Trane, Lennox, Rheem, Bryant, Goodman,
+Mitsubishi, Daikin, and LG.
+The site advertises service for all major equipment brands.
+Home warranty customers are welcomed; the heat-pump page says the company works
+with most home warranty companies. No partner company list is provided.
+New heat-pump installations are advertised with warranties; durations are not given.
+The Main Line page advertises Pennsylvania licensing and insurance, estimates at
+no charge, written quotes before work, and a flat-rate diagnostic call without
+stating the diagnostic amount. License identifiers and a full price list were
+not found in the crawled content.
+Sources: Main Line, heat-pump, split-system, regional services, and contractor pages.
+
+OFFERS AND FINANCIAL INFORMATION DISPLAYED
+- Main Line page: a spring AC tune-up promotion advertises $30 off for scheduling
+  before May. No year or full terms are stated; current availability is unconfirmed.
+- Heating-efficiency page: equipment may qualify for utility rebates, tax credits,
+  and other incentives. No specific programs or dollar amounts are identified.
+- A 2025 central-air article includes an image caption advertising potential
+  energy-bill reductions of up to 30%. This is a promotional claim, not a guarantee.
+Source dates and any time-sensitive claims should be checked before reuse.
+
+BOOKING AND CONTACT FORMS
+Homepage appointment request:
+- Required: name, email, phone, date, and time preference.
+- Time choices: morning or afternoon.
+- Optional: notes.
+- Action label: Book appointment.
+Homepage callback/contact request:
+- Required: phone number.
+- Action label: Submit.
+Other contact actions include calling, emailing, and requesting an estimate.
+Form delivery and appointment availability were not tested.
+Source: https://phillyhvacpros.com/
+
+CUSTOMER TESTIMONIALS DISPLAYED
+The Main Line page shows three testimonials, each with a five-star presentation:
+- James T., Ardmore: reports a winter boiler emergency resolved that evening.
+- Sarah M., Bryn Mawr: describes competitive AC installation pricing and completion
+  within one day.
+- Michael & Lisa R., Wayne: describes a furnace repair recommended over replacement.
+These are on-site testimonials. The page does not establish an independently
+verified aggregate review score or provide external review links for these entries.
+Source: https://phillyhvacpros.com/hvac-services-center-city-philadelphia-pa/
+
+SOURCE CONTENT NOTES
+- Some page paths refer to different places than their current content. The
+  Center City path currently presents Ardmore/Main Line services; the Montgomery
+  County path currently presents Delaware County split-system services; the
+  Northeast Philadelphia path currently presents heat-pump services.
+- The Delaware County services path currently focuses on efficient heating upgrades.
+- The Hello World post is a default WordPress placeholder with no business details.
+- The December 2025 article contains a location list rather than detailed services.
+- The Springfield article contains the text Phillyhvacpro.com, which differs from
+  the actual source domain. The source website remains phillyhvacpros.com.
+- Published dates in page metadata can differ from dates embedded in URL paths.
+  Metadata timestamps below are preserved with their original UTC offsets.
+
+PAGE-BY-PAGE INFORMATION
+
+01. Heating repair homepage
+Source: https://phillyhvacpros.com/
+Fetch: HTTP 200
+Modified metadata: 2026-04-02T22:47:24+00:00
+Information: Residential and light-commercial furnace and boiler services. Covers gas, oil, and efficient heating equipment; heating failures; replacements; and maintenance. Boiler work includes leaks, pressure, steam/hydronic equipment, and conversions. Lists the phone, email, street address, Philadelphia neighborhoods, and surrounding counties. Contains appointment and phone-contact forms.
+
+02. WordPress placeholder
+Source: https://phillyhvacpros.com/2024/05/16/hello-world/
+Fetch: HTTP 200
+Published metadata: 2024-05-16T04:22:30+00:00
+Information: Default introductory WordPress post. Contains no substantive company or service information.
+
+03. Philadelphia air-conditioning services
+Source: https://phillyhvacpros.com/2024/05/20/ac-repair-and-air-conditioning-contractors-in-philadelphia/
+Fetch: HTTP 200
+Published metadata: 2024-05-21T03:58:35+00:00
+Modified metadata: 2024-05-27T17:27:36+00:00
+Information: Philadelphia metro AC installation, diagnosis, repair, and emergency service. Also covers air-handler service, ductless mini-splits, and heat-pump installation/maintenance. Describes selecting efficient equipment for the property, communication during projects, and technician experience. Mentions installation rebates without amounts or eligibility details.
+
+04. Brief home AC service post
+Source: https://phillyhvacpros.com/2024/05/20/home-ac-repair-and-air-conditioning-installation/
+Fetch: HTTP 200
+Published metadata: 2024-05-20T08:03:54+00:00
+Modified metadata: 2024-07-05T20:36:13+00:00
+Information: Very short post promoting Philadelphia metro HVAC services and inviting calls about refrigerant leaks. No detailed offer, pricing, or technical information.
+
+05. Springfield and metro AC services
+Source: https://phillyhvacpros.com/2024/05/24/ac-installation-ac-repair-in-springfield-pa/
+Fetch: HTTP 200
+Published metadata: 2024-05-25T01:56:13+00:00
+Modified metadata: 2025-05-25T18:10:09+00:00
+Information: Promotes AC installation, repair, and maintenance in Springfield, Philadelphia, and nearby counties. Mentions evaporator installation and condenser service. Gives a general equipment-life estimate of 15-20 years with maintenance; this is presented as the article's statement rather than a verified performance guarantee.
+
+06. Summer cooling and refrigerant service
+Source: https://phillyhvacpros.com/2024/05/31/best-air-conditioners-to-keep-you-cool-this-summer/
+Fetch: HTTP 200
+Published metadata: 2024-05-31T21:05:53+00:00
+Modified metadata: 2025-05-25T18:13:05+00:00
+Information: Short promotion for AC installation and repair across the Philadelphia metro area and Springfield. Mentions split systems, ductless mini-splits, and refrigerant leaks. Despite its title, the post does not compare or rank specific air-conditioner models.
+
+07. AC diagnosis, repair, and upkeep
+Source: https://phillyhvacpros.com/2024/07/25/ac-repair-in-philadelphia/
+Fetch: HTTP 200
+Published metadata: 2024-07-25T04:10:05+00:00
+Information: Describes residential/commercial cooling diagnostics for refrigerant leaks, compressors, electrical faults, sensors, condensers, thermostats, capacitors, fan motors, and wiring. Advertises emergency response around the clock. Maintenance topics include filters, refrigerant checks, duct leaks, lubrication, and scheduled tune-ups.
+
+08. Gas and oil furnace maintenance
+Source: https://phillyhvacpros.com/2024/07/25/heating-maintenance-for-gas-heaters-and-oil-heaters/
+Fetch: HTTP 200
+Published metadata: 2024-07-25T04:03:32+00:00
+Modified metadata: 2024-07-26T05:54:39+00:00
+Information: Explains the claimed benefits of annual furnace service: efficiency, reliability, equipment life, cleaner air, and smoother operation. Mentions carbon-monoxide checks, component cleaning/lubrication, filters, ducts, and possible manufacturer maintenance requirements for warranty coverage. Ends with promotion of gas-heater installation/service.
+
+09. Indoor air quality and commercial HVAC
+Source: https://phillyhvacpros.com/2024/07/25/top-hvac-contractor-in-philadelphia/
+Fetch: HTTP 200
+Published metadata: 2024-07-25T04:23:13+00:00
+Modified metadata: 2024-08-21T23:45:43+00:00
+Information: Discusses purifiers, UV lights, humidity control, duct cleaning, smart/programmable thermostats, insulation, and air sealing. Commercial offerings include rooftop installations, ductless systems, and maintenance contracts. Mentions installation warranties, repair satisfaction guarantees, maintenance reminders, and emergency support without detailed terms or prices.
+
+10. Older central-air replacement discussion
+Source: https://phillyhvacpros.com/2025/05/07/is-your-central-air-system-outdated-nows-the-time-to-upgrade-before-summer-hits/
+Fetch: HTTP 200
+Published metadata: 2025-05-07T18:03:31+00:00
+Modified metadata: 2025-05-07T18:03:35+00:00
+Information: Encourages checkups and possible replacement of older central-air systems before summer. Discusses R-22, R-410A, R-454B, and R-32 and makes refrigerant-transition and efficiency claims. Mentions checks for leaks, compressors, thermostats, ducts, and airflow. Names Chestnut Hill, Rittenhouse, Ardmore, Haverford, and Villanova. Regulatory and savings statements are recorded as dated website claims, not independently verified guidance.
+
+11. Main Line homes and businesses
+Source: https://phillyhvacpros.com/2025/06/21/reliable-hvac-services-for-main-line-pa-heating-cooling-for-homes-businesses/
+Fetch: HTTP 200
+Published metadata: 2025-06-21T19:38:38+00:00
+Information: Names Superior Comfort Heating & Cooling LLC. Advertises emergency repairs at any hour and efficient furnace, central-air, heat-pump, and mini-split installations. Maintenance plans target landlords, property managers, rental buildings, and multi-unit properties. Also lists smart thermostats and indoor air quality services, with examples in Bryn Mawr and Ardmore.
+
+12. Boiler upkeep and HVAC replacement
+Source: https://phillyhvacpros.com/2025/10/03/reliable-hvac-services-in-philadelphia-main-line-tune-ups-repairs-replacements/
+Fetch: HTTP 200
+Published metadata: 2025-10-03T20:32:46+00:00
+Modified metadata: 2025-11-10T02:16:48+00:00
+Information: Boiler tune-ups, installations, emergency repairs, and broader heating/cooling upgrades for Philadelphia and the Main Line. Names Trane, Lennox, Carrier, and Goodman. Discusses motors, capacitors, refrigerant/compressor problems, thermostats, filters, coils, and ducts. Promotes repairing equipment where practical, same-day availability, estimates without charge, and continuous emergency support. Also names Montgomery, Bucks, Delaware, and Chester counties.
+
+13. Philadelphia and suburban location list
+Source: https://phillyhvacpros.com/2025/12/15/philadelphia-hvac-company-furnace-boiler-ac-service-near-you/
+Fetch: HTTP 200
+Published metadata: 2025-12-16T03:02:15+00:00
+Information: Lists Philadelphia and neighborhoods including Rittenhouse Square, Society Hill, Fitler Square, Chestnut Hill, East Falls, Manayunk, Roxborough, Fairmount, Queen Village, and Old City. Suburban locations include Bryn Mawr, Bala Cynwyd, Villanova, Haverford, Gladwyne, Devon, and Malvern. The body contains no substantive service explanation.
+
+14. Regional heating and cooling services
+Source: https://phillyhvacpros.com/expert-hvac-services-in-delaware-county/
+Fetch: HTTP 200
+Information: Regional residential/commercial HVAC services across Philadelphia and nearby counties. Highlights AC installation, central air, mini-splits, high-velocity systems, heat pumps, tune-ups, and filter changes. Advertises emergency availability around the clock, apartment/commercial maintenance plans, and acceptance of home warranty work. Identifies Superior Comfort Heating & Cooling.
+
+15. Heat-pump installation and repair
+Source: https://phillyhvacpros.com/hvac-northeast-philadelphia/
+Fetch: HTTP 200
+Modified metadata: 2026-09-23T01:02:23+00:00
+Information: Air-source, ducted, ductless, and cold-climate heat pumps. Installation includes sizing calculations, electrical upgrades when necessary, equipment disposal, and control upgrades. Ductless options target older homes, additions, basements, and zoning. Repairs cover loss of heating/cooling, frozen outdoor equipment, refrigerant leaks, electrical faults, airflow, and filters. Mentions installation warranties and most home warranty providers.
+
+16. Ardmore and Main Line HVAC services
+Source: https://phillyhvacpros.com/hvac-services-center-city-philadelphia-pa/
+Fetch: HTTP 200
+Modified metadata: 2026-04-02T22:36:14+00:00
+Information: Dedicated Main Line service page with heating repair, cooling, heat pumps, system replacement, maintenance, and emergency response. Gives coverage towns, named brands, older-home experience, pricing policies, licensing/insurance claims, FAQs, a seasonal offer, and three testimonials. States same-day priority for urgent cases; steam/hot-water boiler expertise; and installation/service of ductless systems. Calls or emails are offered for estimates.
+
+17. Efficient furnace and boiler upgrades
+Source: https://phillyhvacpros.com/hvac-services-delaware-county-pa/
+Fetch: HTTP 200
+Modified metadata: 2026-04-02T22:37:56+00:00
+Information: Efficient heating installation for homeowners and landlords. Lists gas furnaces rated at least 90% AFUE, old-equipment removal, venting, combustion air, thermostat upgrades, and sizing. Boiler options include condensing models, steam-to-hot-water conversion, hydronic zones, and radiator/baseboard connections. Mentions possible rebates/incentives without naming programs. Lists Delaware County towns and the Philadelphia address. An embedded entry is dated January 9, 2026.
+
+18. Split-system HVAC and commercial services
+Source: https://phillyhvacpros.com/hvac-services-montgomery-county-pa/
+Fetch: HTTP 200
+Modified metadata: 2026-04-02T22:39:22+00:00
+Information: Delaware County split-system installation, repair, and maintenance for homeowners, landlords, and property managers. Covers indoor air handlers/furnaces, evaporator coils, condensers, thermostats, refrigerant leaks, frozen coils, and heating/cooling failures. Includes commercial rooftop equipment, maintenance, emergency work, condensate plumbing, and boiler piping. Welcomes home warranty plans and offers rental repairs and multi-property agreements.
+
+19. Water-heater repair and replacement
+Source: https://phillyhvacpros.com/water-heater-repair-jenkintown-bryn-mawr-hot-water-heater-service-replacement/
+Fetch: HTTP 200
+Modified metadata: 2026-04-02T22:47:25+00:00
+Information: Superior Comfort Heating & Cooling offers gas/electric water-heater repair, maintenance, and replacement for homeowners, landlords, property managers, and home warranty customers. Coverage includes Philadelphia, surrounding counties, Jenkintown, Ambler, Ardmore, and Media. Problems discussed include absent hot water, leaking fittings/valves/tanks, thermostat or heating-element failure, pilot issues, and sediment-related noise.
+
+ARCHIVE PAGES CHECKED
+These category, tag, and author pages repeat post excerpts and links. Their linked
+content is represented in the page summaries above. No extra unique content page
+was discovered beyond the 19 listed. All returned HTTP 200.
+
+https://phillyhvacpros.com/author/1superiorcomfortllc/
+https://phillyhvacpros.com/category/ac-repair/
+https://phillyhvacpros.com/category/boiler-repair/
+https://phillyhvacpros.com/category/heat-pump-repair/
+https://phillyhvacpros.com/category/hvac-contractor-in-philadelphia/
+https://phillyhvacpros.com/category/hvac-contractor-in-philadelphia/hvac-contractor-in-philadelphia-hvac-contractor-in-philadelphia/
+https://phillyhvacpros.com/category/hvac-maintenance/
+https://phillyhvacpros.com/category/hvac/
+https://phillyhvacpros.com/category/uncategorized/
+https://phillyhvacpros.com/tag/air-conditioning-repair/
+https://phillyhvacpros.com/tag/boiler-service/
+https://phillyhvacpros.com/tag/central-air-repair/
+https://phillyhvacpros.com/tag/central-air-service/
+https://phillyhvacpros.com/tag/gas-heater-repair/
+https://phillyhvacpros.com/tag/heat-pump-repair/
+https://phillyhvacpros.com/tag/heating-contractor/
+https://phillyhvacpros.com/tag/hvac-company-near-me/
+https://phillyhvacpros.com/tag/hvac-company/
+https://phillyhvacpros.com/tag/hvac-contrator/
+https://phillyhvacpros.com/tag/hvac-repair/
+https://phillyhvacpros.com/tag/hydronic-experts/
+https://phillyhvacpros.com/tag/philadelphia-hvac-company/
+https://phillyhvacpros.com/author/1superiorcomfortllc/page/2/
+
+MAIN-CONTENT IMAGE URL INVENTORY
+Exact image URLs as found in content, with referring page numbers. CDN query
+parameters are retained. Repeated URLs and inline tracking/placeholder images
+are omitted. Different URL variants can refer to the same underlying image.
+
+01. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2026/02/img_5665.jpeg?fit=1290%2C1590&ssl=1
+    Referring content pages: 01
+02. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/10/img_1663.png?fit=369%2C800&ssl=1
+    Referring content pages: 01, 12
+03. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2024/05/d833b-img_0547-1024x1024-1.jpg?fit=1024%2C1023&ssl=1
+    Referring content pages: 01
+04. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/7c957-unnamed.jpg?fit=517%2C510&ssl=1
+    Referring content pages: 01
+05. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/ff63a-2024-01-23-1.jpg?fit=141%2C235&ssl=1
+    Referring content pages: 01
+06. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/5be13-img_2964.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 01, 05
+07. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/c6731-img_9697.jpg?fit=1500%2C2000&ssl=1
+    Referring content pages: 03
+08. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/d2d9a-image.jpg?fit=360%2C571&ssl=1
+    Referring content pages: 04
+09. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/40750-img_2965.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 05
+10. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/43939-img_2965-2.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 06
+11. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/67993-img_3266.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 07
+12. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/4ed45-img_3139.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 08
+13. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/b8b1f-img_3266-1.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 09
+14. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/3d48e-air-handler.jpg?fit=576%2C576&ssl=1
+    Referring content pages: 10
+15. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/09553-unnamed.jpg?fit=517%2C510&ssl=1
+    Referring content pages: 10
+16. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2024/05/135866010_padded_logo.png?fit=1000%2C1000&ssl=1
+    Referring content pages: 14
+17. https://phillyhvacpros.com/wp-content/uploads/2024/05/img_5765.jpg?w=768
+    Referring content pages: 14
+18. https://phillyhvacpros.com/wp-content/uploads/2024/05/416373416_1117767149673795_7268446850092853706_n-2-1.jpg
+    Referring content pages: 14
+19. http://phillyhvacpros.com/wp-content/uploads/2024/05/d833b-img_0547-1024x1024-1.jpg
+    Referring content pages: 14
+20. http://phillyhvacpros.com/wp-content/uploads/2024/05/31ac8-goodman-condenser-1-819x1024-1.jpg
+    Referring content pages: 14
+21. https://phillyhvacpros.com/wp-content/uploads/2024/05/img_2163.jpg?w=839
+    Referring content pages: 14
+22. https://phillyhvacpros.com/wp-content/uploads/2024/05/416373416_1117767149673795_7268446850092853706_n-2-1.jpg?w=819
+    Referring content pages: 14
+23. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2026/01/unnamed.jpg?fit=517%2C510&ssl=1
+    Referring content pages: 15
+24. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2026/01/img_2266.jpg?fit=3024%2C4032&ssl=1
+    Referring content pages: 15
+25. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2026/01/img_4151.jpg?fit=3024%2C4032&ssl=1
+    Referring content pages: 17
+26. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2026/01/img_5554.jpg?fit=3024%2C4032&ssl=1
+    Referring content pages: 17
+27. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2026/04/2674e680-a4cf-416e-9785-9d6644e77675.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 18
+28. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2024/05/31ac8-goodman-condenser-1-819x1024-1.jpg?fit=819%2C1024&ssl=1
+    Referring content pages: 18
+29. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/0904d-img_2163.jpg?fit=1290%2C1575&ssl=1
+    Referring content pages: 18
+30. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/10/img_5458.jpg?fit=600%2C800&ssl=1
+    Referring content pages: 18
+31. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2026/03/img_6477.jpg?fit=1500%2C2000&ssl=1
+    Referring content pages: 19
+32. https://i0.wp.com/phillyhvacpros.com/wp-content/uploads/2025/05/73bb6-img_8743.jpg?fit=3024%2C4032&ssl=1
+    Referring content pages: 19
+
+CRAWL DISCOVERY SOURCES
+https://phillyhvacpros.com/robots.txt
+https://phillyhvacpros.com/sitemap.xml
+https://phillyhvacpros.com/sitemap-1.xml
+https://phillyhvacpros.com/sitemap_index.xml
+https://phillyhvacpros.com/post-sitemap.xml
+https://phillyhvacpros.com/page-sitemap.xml
+https://phillyhvacpros.com/category-sitemap.xml
+https://phillyhvacpros.com/post_tag-sitemap.xml
+https://phillyhvacpros.com/author-sitemap.xml
+
+FETCH RESULTS
+Successful HTML pages: 42.
+Failed HTML pages: 0.
+Unique content pages: 19.
+Archive pages: 23 (8 category, 13 tag, 2 author).
+Main-content image URL variants recorded: 32.

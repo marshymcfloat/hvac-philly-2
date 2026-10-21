@@ -62,20 +62,20 @@ watch(() => props.open, async (open) => {
     <Transition name="mobile-nav">
       <div v-if="open" id="mobile-navigation" ref="sheet" class="mobile-nav-sheet" role="dialog" aria-modal="true" aria-label="Mobile navigation" data-lenis-prevent>
         <header class="mobile-nav-header">
-          <a class="wordmark" href="#" @click="close">LOREM</a>
+          <a class="wordmark brand-logo" href="#main" aria-label="Philly HVAC Pros home" @click="close"><img src="/philly-hvac-pros-logo.png" alt="Superior Comfort Heating &amp; Cooling" width="1000" height="1000" /></a>
           <button ref="closeButton" class="mobile-nav-close" type="button" aria-label="Close navigation" @click="close">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" /></svg>
           </button>
         </header>
 
         <nav class="mobile-nav-links" aria-label="Mobile navigation" data-lenis-prevent>
-          <a href="#about" @click="close"><span>01</span>Ipsum<i aria-hidden="true">&nearr;</i></a>
-          <a href="#services" @click="close"><span>02</span>Dolor<i aria-hidden="true">&nearr;</i></a>
-          <a href="#journal" @click="close"><span>03</span>Amet<i aria-hidden="true">&nearr;</i></a>
-          <a class="mobile-nav-cta" href="#footer" @click="close"><span>04</span>Lorem ipsum<i aria-hidden="true">&nearr;</i></a>
+          <a href="#about" @click="close"><span>01</span>About<i aria-hidden="true">&nearr;</i></a>
+          <a href="#services" @click="close"><span>02</span>Services<i aria-hidden="true">&nearr;</i></a>
+          <a href="#journal" @click="close"><span>03</span>Insights<i aria-hidden="true">&nearr;</i></a>
+          <a class="mobile-nav-cta" href="tel:2154166557" @click="close"><span>04</span>Call us<i aria-hidden="true">&nearr;</i></a>
         </nav>
 
-        <footer class="mobile-nav-footer"></footer>
+        <footer class="mobile-nav-footer"><a href="tel:2154166557">215-416-6557 &middot; 24/7 emergency service</a><p>545 N 58th Street, Philadelphia, PA 19131</p></footer>
       </div>
     </Transition>
   </Teleport>

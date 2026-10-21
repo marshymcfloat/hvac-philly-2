@@ -1,0 +1,12 @@
+Generation method: built-in image_gen tool.
+Final asset: public/images/philly-hvac-commercial-service.webp
+Generated artwork; the technician and property are illustrative, not documented staff or completed projects.
+
+Use case: photorealistic-natural.
+Asset type: supporting commercial HVAC service photograph for Superior Comfort Heating & Cooling LLC / Philly HVAC Pros website. Landscape 3:2, preferably 1536x1024.
+Primary request: communicate reliable HVAC maintenance for local businesses, rental buildings and property managers.
+Scene: roof of a low-rise red-brick Philadelphia mixed-use building in a real neighborhood, a believable packaged commercial rooftop HVAC unit with intact gray cabinet, condenser grille and straightforward duct connections, subtle neighboring brick buildings softly out of focus. Grounded neighborhood context rather than a skyscraper skyline.
+Subject: one adult HVAC technician in clean navy workwear and sturdy work boots standing or slightly crouching next to the equipment, performing an external visual inspection while holding a small tablet, attentive natural posture. Unit and technician occupy the central two thirds of the composition. No readable branding or text on device or clothing. Sensible work location in the middle of a flat roof, well away from roof edges, with parapet visible far in the background; no exposed electrical panels.
+Composition: premium candid editorial trade photograph, medium-wide three-quarter view, important details in central 60 percent horizontally and vertically so a panoramic crop works for a website. Clearly recognizable rooftop equipment, strong practical service narrative, uncluttered and physically plausible equipment. No staged pose, no thumbs-up, no pointing at the camera.
+Lighting and palette: soft late-afternoon daylight, warm copper tones in brick, deep navy workwear, silver and charcoal equipment, natural skin tones, gentle crisp detail. Match a navy-and-copper Philadelphia HVAC brand and residential boiler-service photography.
+Constraints: photo only. No text, logos, watermark, UI, diagrams or promotional overlays. No dramatic fog, no futuristic hardware, no unsafe work near roof edges, no excessive tools.
