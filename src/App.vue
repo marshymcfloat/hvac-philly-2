@@ -1,4 +1,4 @@
-﻿<script setup>
+<script setup>
 import { nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
@@ -78,7 +78,7 @@ onMounted(() => {
       const updateNavbar = () => {
         const scrolled = window.scrollY > 24
         gsap.set(navbar.value, { y: scrolled ? 0 : mobile ? 20 : 32, '--nav-surface': scrolled ? 1 : 0 })
-        gsap.set(navbarLogo.value, { scale: scrolled ? 1 : mobile ? 1.05 : 1.15 })
+        gsap.set(navbarLogo.value, { scale: scrolled ? 1 : 1.03 })
       }
       ScrollTrigger.create({ start: 0, end: 'max', onUpdate: updateNavbar, onRefresh: updateNavbar })
       updateNavbar()
@@ -157,7 +157,7 @@ const pad = (value) => String(value).padStart(2, '0')
 <template>
   <div class="page" :inert="areaLightboxOpen">
     <header ref="navbar" class="nav">
-      <a ref="navbarLogo" class="wordmark brand-logo" href="#main" aria-label="Philly HVAC Pros home"><img src="/philly-hvac-pros-logo.png" alt="Superior Comfort Heating &amp; Cooling" width="1000" height="1000" fetchpriority="high" /></a>
+      <a ref="navbarLogo" class="wordmark brand-logo" href="#main" aria-label="Philly HVAC Pros home"><img src="/superior-comfort-horizontal-transparent.png" alt="Superior Comfort Heating &amp; Cooling" width="1881" height="836" fetchpriority="high" /></a>
       <nav aria-label="Primary navigation"><a href="#about">About</a><a href="#services">Services</a><a href="#journal">Insights</a></nav>
       <a class="nav-cta" href="tel:2154166557">215-416-6557 <span>&nearr;</span></a>
       <button ref="mobileNavTrigger" class="nav-toggle" type="button" aria-label="Open navigation" aria-controls="mobile-navigation" :aria-expanded="mobileNavOpen" @click="mobileNavOpen = true">
@@ -248,7 +248,7 @@ const pad = (value) => String(value).padStart(2, '0')
     <footer id="footer" class="footer">
       <div class="shell footer-shell">
         <ContactSection ref="contactSection" @form-active="setContactFormActive" />
-        <div class="footer-directory"><div><a class="footer-logo brand-logo" href="#main" aria-label="Philly HVAC Pros home"><img src="/philly-hvac-pros-logo.png" alt="Superior Comfort Heating &amp; Cooling" width="1000" height="1000" loading="lazy" /></a><p>Superior Comfort Heating &amp; Cooling LLC.<br />545 N 58th Street<br />Philadelphia, PA 19131, USA</p><a href="mailto:1superiorcomfortllc@gmail.com">1superiorcomfortllc@gmail.com</a><a href="tel:2154166557">215-416-6557</a></div><nav v-for="group in footerGroups" :key="group.title" :aria-label="group.title"><h3>{{ group.title }}</h3><a v-for="link in group.links" :key="link.label" :href="link.href">{{ link.label }} <span>&nearr;</span></a></nav></div>
+        <div class="footer-directory"><div><a class="footer-logo brand-logo" href="#main" aria-label="Philly HVAC Pros home"><img src="/superior-comfort-horizontal-transparent.png" alt="Superior Comfort Heating &amp; Cooling" width="1881" height="836" loading="lazy" /></a><p>Superior Comfort Heating &amp; Cooling LLC.<br />545 N 58th Street<br />Philadelphia, PA 19131, USA</p><a href="mailto:1superiorcomfortllc@gmail.com">1superiorcomfortllc@gmail.com</a><a href="tel:2154166557">215-416-6557</a></div><nav v-for="group in footerGroups" :key="group.title" :aria-label="group.title"><h3>{{ group.title }}</h3><a v-for="link in group.links" :key="link.label" :href="link.href">{{ link.label }} <span>&nearr;</span></a></nav></div>
         <div class="footer-bottom"><p>&copy; 2026 Superior Comfort Heating &amp; Cooling LLC.</p><a href="#main">Back to top &uarr;</a></div>
       </div><div class="footer-word" aria-hidden="true">PHILLY HVAC</div>
     </footer>

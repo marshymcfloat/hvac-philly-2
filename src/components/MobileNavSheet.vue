@@ -62,7 +62,7 @@ watch(() => props.open, async (open) => {
     <Transition name="mobile-nav">
       <div v-if="open" id="mobile-navigation" ref="sheet" class="mobile-nav-sheet" role="dialog" aria-modal="true" aria-label="Mobile navigation" data-lenis-prevent>
         <header class="mobile-nav-header">
-          <a class="wordmark brand-logo" href="#main" aria-label="Philly HVAC Pros home" @click="close"><img src="/philly-hvac-pros-logo.png" alt="Superior Comfort Heating &amp; Cooling" width="1000" height="1000" /></a>
+          <a class="wordmark brand-logo" href="#main" aria-label="Philly HVAC Pros home" @click="close"><img src="/superior-comfort-horizontal-transparent.png" alt="Superior Comfort Heating &amp; Cooling" width="1881" height="836" /></a>
           <button ref="closeButton" class="mobile-nav-close" type="button" aria-label="Close navigation" @click="close">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" /></svg>
           </button>

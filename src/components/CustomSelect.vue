@@ -126,18 +126,18 @@ onBeforeUnmount(() => {
 <style scoped>
 .custom-select{position:relative;min-width:0;font-family:'Public Sans',sans-serif;font-weight:500}
 .custom-select.is-open{z-index:10}
-.select-trigger{width:100%;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 15px;color:#fff;background:#071e32;border:1px solid #647f92;border-radius:5px;font:500 16px/1.5 'Public Sans',sans-serif;text-align:left;cursor:pointer}
+.select-trigger{width:100%;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 15px;color:#fff;background:var(--navy);border:1px solid var(--sky);border-radius:5px;font:500 16px/1.5 'Public Sans',sans-serif;text-align:left;cursor:pointer}
 .select-trigger>span{min-width:0}
-.select-placeholder{color:#a5bac9}
-.select-trigger>svg{width:20px;height:20px;flex-shrink:0;color:#a9dff3;transition:transform .2s ease}
+.select-placeholder{color:var(--sky)}
+.select-trigger>svg{width:20px;height:20px;flex-shrink:0;color:var(--sky);transition:transform .2s ease}
 .is-open .select-trigger>svg{transform:rotate(180deg)}
-.is-open .select-trigger,.select-trigger:focus-visible{border-color:#a9dff3;outline:2px solid rgba(169,223,243,.45);outline-offset:2px}
+.is-open .select-trigger,.select-trigger:focus-visible{border-color:var(--sky);outline:2px solid rgba(169,223,243,.45);outline-offset:2px}
 .select-trigger[aria-invalid=true]{border-color:#ffb8a9}
-.select-listbox{position:absolute;z-index:20;top:calc(100% + 8px);right:0;left:0;max-height:min(296px,44dvh);margin:0;padding:6px;overflow-y:auto;overscroll-behavior:contain;color:#fff;background:#102e48;border:1px solid #648aa2;border-radius:7px;box-shadow:0 18px 36px rgba(0,0,0,.35);list-style:none;scrollbar-width:thin;scrollbar-color:#7196ad #102e48;-webkit-overflow-scrolling:touch}
+.select-listbox{position:absolute;z-index:20;top:calc(100% + 8px);right:0;left:0;max-height:min(296px,44dvh);margin:0;padding:6px;overflow-y:auto;overscroll-behavior:contain;color:#fff;background:var(--navy);border:1px solid var(--sky);border-radius:7px;box-shadow:0 18px 36px rgba(0,0,0,.35);list-style:none;scrollbar-width:thin;scrollbar-color:var(--sky) var(--navy);-webkit-overflow-scrolling:touch}
 .select-listbox li{min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:11px 12px;border-radius:4px;font-size:14px;font-weight:500;line-height:1.5;cursor:pointer}
 .select-listbox li+li{margin-top:2px}
-.select-listbox .is-selected{color:#bceafa;background:#173f5b}
-.select-listbox .is-active{color:#fff;background:#255774;outline:1px solid #83b5d0;outline-offset:-1px}
-.select-listbox svg{width:19px;height:19px;flex-shrink:0;color:#bceafa}
+.select-listbox .is-selected{color:#fff;background:var(--navy)}
+.select-listbox .is-active{color:#fff;background:var(--brand-base, #255774);outline:1px solid #fff;outline-offset:-1px}
+.select-listbox svg{width:19px;height:19px;flex-shrink:0;color:#fff}
 @media(prefers-reduced-motion:reduce){.select-trigger>svg{transition:none}}
 </style>

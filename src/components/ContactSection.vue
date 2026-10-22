@@ -118,44 +118,44 @@ const prepareEmail = async () => {
 
 <style scoped>
 .contact-section{position:relative;z-index:2;padding-bottom:64px;border-bottom:1px solid rgba(183,227,244,.2);font-weight:500;scroll-margin-top:130px}
-.contact-section>.index{margin-bottom:30px;color:#b6c7d3;font-size:14px}
+.contact-section>.index{margin-bottom:30px;color:#fff;font-size:14px}
 .contact-layout{display:grid;gap:36px}
 .contact-copy{min-width:0}
-.contact-eyebrow{margin:0 0 20px;color:#b6c7d3;font-size:14px;font-weight:500;line-height:1.6}
+.contact-eyebrow{margin:0 0 20px;color:#fff;font-size:14px;font-weight:500;line-height:1.6}
 .contact-copy h2{margin:0;color:#fff;font:800 clamp(2.8rem,7vw,6rem)/.94 'Manrope',sans-serif;letter-spacing:-.065em}
 .contact-copy h2>span{color:var(--sky)}
-.contact-intro{max-width:440px;margin:24px 0 0;color:#b8cad7;font-size:16px;font-weight:500;line-height:1.7}
+.contact-intro{max-width:440px;margin:24px 0 0;color:#fff;font-size:16px;font-weight:500;line-height:1.7}
 .contact-details{display:grid;gap:22px;margin:30px 0 0}
 .contact-details>div{min-width:0}
 .contact-details dt{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;color:#d9e6ee;font-size:14px;font-weight:600;line-height:1.5}
-.contact-details dt>span{color:#a9dff3;font-size:14px;font-weight:500}
+.contact-details dt>span{color:var(--sky);font-size:14px;font-weight:500}
 .contact-details dd{margin:6px 0 0;color:#fff;font-size:14px;font-weight:500;line-height:1.65}
 .contact-details a{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:44px;max-width:400px;padding:4px 0;overflow-wrap:anywhere}
-.contact-details a>span{flex-shrink:0;color:#a9dff3;font-size:20px}
+.contact-details a>span{flex-shrink:0;color:var(--sky);font-size:20px}
 .contact-details .contact-phone{font:700 clamp(1.45rem,3vw,1.85rem)/1.3 'Manrope',sans-serif;letter-spacing:-.025em}
-.contact-details address{color:#b8cad7;font-size:14px;font-weight:500;font-style:normal;line-height:1.7}
-.contact-form{min-width:0;padding:24px 20px;color:#fff;background:#0c2840;border:1px solid rgba(169,223,243,.25);border-radius:10px}
+.contact-details address{color:#fff;font-size:14px;font-weight:500;font-style:normal;line-height:1.7}
+.contact-form{min-width:0;padding:24px 20px;color:#fff;background:var(--brand-base, #0c2840);border:1px solid rgba(169,223,243,.25);border-radius:10px}
 .contact-form header{margin-bottom:24px}
 .contact-form h3{margin:0;color:#fff;font:700 clamp(1.5rem,3vw,2rem)/1.2 'Manrope',sans-serif;letter-spacing:-.035em}
-.contact-form header p{margin:10px 0 0;color:#bbcfdd;font-size:14px;font-weight:500;line-height:1.6}
+.contact-form header p{margin:10px 0 0;color:#fff;font-size:14px;font-weight:500;line-height:1.6}
 .contact-form header .required-note{margin-top:14px;font-size:14px}
 .contact-fields{display:grid;gap:20px}
 .contact-field{min-width:0}
 .contact-field label{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 8px;margin-bottom:9px;color:#f0f6fa;font-size:14px;font-weight:600;line-height:1.5}
 .required-mark{color:#b7e5f7}
-.optional-note{margin-left:auto;color:#a6bfce;font-size:14px;font-weight:500}
-.contact-field input,.contact-field textarea{display:block;width:100%;min-width:0;min-height:52px;margin:0;padding:13px 15px;color:#fff;background:#071e32;border:1px solid #647f92;border-radius:5px;font:500 16px/1.5 'Public Sans',sans-serif;box-shadow:none}
+.optional-note{margin-left:auto;color:#fff;font-size:14px;font-weight:500}
+.contact-field input,.contact-field textarea{display:block;width:100%;min-width:0;min-height:52px;margin:0;padding:13px 15px;color:#fff;background:var(--navy);border:1px solid var(--sky);border-radius:5px;font:500 16px/1.5 'Public Sans',sans-serif;box-shadow:none}
 .contact-field textarea{min-height:120px;resize:vertical}
-.contact-field input::placeholder,.contact-field textarea::placeholder{color:#a5bac9;opacity:1}
-.contact-field input:focus,.contact-field textarea:focus{border-color:#a9dff3;outline:2px solid rgba(169,223,243,.45);outline-offset:2px}
+.contact-field input::placeholder,.contact-field textarea::placeholder{color:var(--sky);opacity:1}
+.contact-field input:focus,.contact-field textarea:focus{border-color:var(--sky);outline:2px solid rgba(169,223,243,.45);outline-offset:2px}
 .contact-field input[aria-invalid=true]{border-color:#ffb8a9}
-.contact-field .field-error,.form-error-summary{margin:8px 0 0;color:#ffbdad;font-size:14px;font-weight:500;line-height:1.5}
+.contact-field .field-error,.form-error-summary{margin:8px 0 0;color:#fff;font-size:14px;font-weight:500;line-height:1.5}
 .form-error-summary{margin:0 0 20px}
 .contact-submit{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;min-height:52px;margin-top:24px;padding:14px 18px;color:var(--navy);background:var(--sky);border:1px solid var(--sky);border-radius:5px;font:700 14px/1.5 'Public Sans',sans-serif;cursor:pointer}
 .contact-submit>svg{width:20px;height:20px;flex-shrink:0}
-.contact-submit:hover{background:#c5ebf9}
-.contact-delivery-note{margin:12px 0 0;color:#b9cddb;font-size:14px;font-weight:500;line-height:1.6}
-.contact-draft-status{margin:20px 0 0;padding:14px;color:#d8f3ff;background:#153b53;border-left:2px solid #a9dff3;font-size:14px;font-weight:500;line-height:1.65}
+.contact-submit:hover{background:#fff}
+.contact-delivery-note{margin:12px 0 0;color:#fff;font-size:14px;font-weight:500;line-height:1.6}
+.contact-draft-status{margin:20px 0 0;padding:14px;color:#fff;background:var(--navy);border-left:2px solid var(--sky);font-size:14px;font-weight:500;line-height:1.65}
 .contact-draft-status a{min-height:44px;display:inline-flex;align-items:center;color:#fff;text-decoration:underline;text-underline-offset:4px}
 .contact-section a:focus-visible,.contact-submit:focus-visible{outline:2px solid var(--sky);outline-offset:5px;border-radius:3px}
 @media(min-width:600px){.contact-form{padding:32px}.contact-fields{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px}.contact-field-wide{grid-column:1/-1}}

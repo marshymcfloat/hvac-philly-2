@@ -67,12 +67,12 @@ const pad = (value) => String(value).padStart(2, '0')
 .category-card .directory-cta{min-height:48px;align-items:center;gap:14px;margin-top:auto;padding:14px 16px;font-size:14px}
 .category-card .directory ul{margin-bottom:24px}
 .supporting-services{margin-top:32px}
-.supporting-label{margin:0 0 18px;color:#a9dff3;font-size:14px;font-weight:600}
+.supporting-label{margin:0 0 18px;color:#fff;font-size:14px;font-weight:600}
 .supporting-grid{display:grid;gap:12px}
 .supporting-service{display:grid;grid-template-columns:32px minmax(0,1fr);gap:16px;padding:22px;border:1px solid rgba(169,223,243,.2);border-radius:6px;scroll-margin-top:130px}
-.supporting-service>svg{width:32px;height:32px;color:#a9dff3}
+.supporting-service>svg{width:32px;height:32px;color:#fff}
 .supporting-service h3{margin:0;color:#fff;font:700 18px/1.25 'Manrope',sans-serif;letter-spacing:-.02em}
-.supporting-service p{margin:9px 0 0;color:#b7c9d6;font-size:14px;font-weight:500;line-height:1.65}
+.supporting-service p{margin:9px 0 0;color:#fff;font-size:14px;font-weight:500;line-height:1.65}
 .section-footer a{min-height:44px;display:inline-flex;align-items:center;gap:14px}
 .category-list:focus-visible,.services a:focus-visible{outline:2px solid var(--sky);outline-offset:5px}
 @media(min-width:651px){
